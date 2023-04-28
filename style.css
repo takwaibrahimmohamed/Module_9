@@ -1,0 +1,394 @@
+section{
+    margin:50px auto;
+}
+section img{
+  margin: auto;
+}
+.btn:hover{
+    background-color: brown;
+    color: white;
+}
+.box1{
+position: absolute;
+top: 40px;
+left: -110px;
+}
+.box1::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    bottom: 20px;
+    background-color: black;
+    cursor: pointer;
+
+}
+/* plusing */
+.box1 .pulsating-circle {
+    position: absolute;
+   right: -100px;
+   top: 15px;
+    width: 5px;
+    height:5px;
+    
+    &:before {
+      content: '';
+      position: relative;
+      display: block;
+      width: 300%;
+      height: 300%;
+      box-sizing: border-box;
+      margin-left: -100%;
+      margin-top: -100%;
+      border-radius: 45px;
+      background-color: black;
+      animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+    
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0; 
+      top: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      border-radius: 15px;
+      box-shadow: 0 0 8px rgba(0,0,0,.3);
+      animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+    }
+  }
+  
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(.33);
+    }
+    80%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pulse-dot {
+    0% {
+      transform: scale(.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(.8);
+    }
+  }
+/* plusing */
+
+/* box2 */
+.box2{
+    position: absolute;
+    top: 120px;
+    left: -120px;
+    }
+    .box2::after{
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 1px;
+        bottom: 20px;
+        background-color: black;
+        cursor: pointer;
+    
+    }
+    /* plusing */
+    .box2 .pulsating-circle {
+        position: absolute;
+       right: -100px;
+       top: 15px;
+        width: 5px;
+        height:5px;
+        
+        &:before {
+          content: '';
+          position: relative;
+          display: block;
+          width: 300%;
+          height: 300%;
+          box-sizing: border-box;
+          margin-left: -100%;
+          margin-top: -100%;
+          border-radius: 45px;
+          background-color: black;
+          animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        }
+        
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0; 
+          top: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: black;
+          border-radius: 15px;
+          box-shadow: 0 0 8px rgba(0,0,0,.3);
+          animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+        }
+      }
+      
+      @keyframes pulse-ring {
+        0% {
+          transform: scale(.33);
+        }
+        80%, 100% {
+          opacity: 0;
+        }
+      }
+      
+      @keyframes pulse-dot {
+        0% {
+          transform: scale(.8);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(.8);
+        }
+      }
+/* box2 */
+/* box3 */
+.box3{
+    position: absolute;
+    bottom: 140px;
+    left: -150px;
+    }
+    .box3::after{
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 1px;
+        bottom: 20px;
+        background-color: black;
+        cursor: pointer;
+    
+    }
+    /* plusing */
+    .box3 .pulsating-circle {
+        position: absolute;
+       right: -100px;
+       top: 15px;
+        width: 5px;
+        height:5px;
+        
+        &:before {
+          content: '';
+          position: relative;
+          display: block;
+          width: 300%;
+          height: 300%;
+          box-sizing: border-box;
+          margin-left: -100%;
+          margin-top: -100%;
+          border-radius: 45px;
+          background-color: black;
+          animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        }
+        
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0; 
+          top: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: black;
+          border-radius: 15px;
+          box-shadow: 0 0 8px rgba(0,0,0,.3);
+          animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+        }
+      }
+      
+      @keyframes pulse-ring {
+        0% {
+          transform: scale(.33);
+        }
+        80%, 100% {
+          opacity: 0;
+        }
+      }
+      
+      @keyframes pulse-dot {
+        0% {
+          transform: scale(.8);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(.8);
+        }
+      }
+/* box3 */
+/* box4 */
+.box4{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    }
+    .box4::before{
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 1px;
+        left: -40px;
+      bottom: 15px;
+        background-color: black;
+        cursor: pointer;
+    
+    }
+    /* plusing */
+    .box4 .pulsating-circle {
+        position: absolute;
+       left: -40px;
+       top: 20px;
+        width: 5px;
+        height:5px;
+        
+        &:before {
+          content: '';
+          position: relative;
+          display: block;
+          width: 300%;
+          height: 300%;
+          box-sizing: border-box;
+          margin-left: -100%;
+          margin-top: -100%;
+          border-radius: 45px;
+          background-color: black;
+          animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        }
+        
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0; 
+          top: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: black;
+          border-radius: 15px;
+          box-shadow: 0 0 8px rgba(0,0,0,.3);
+          animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+        }
+      }
+      
+      @keyframes pulse-ring {
+        0% {
+          transform: scale(.33);
+        }
+        80%, 100% {
+          opacity: 0;
+        }
+      }
+      
+      @keyframes pulse-dot {
+        0% {
+          transform: scale(.8);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(.8);
+        }
+      }
+/* box4 */
+/* box5 */
+.box5{
+  position: absolute;
+  top: 90px;
+  right: 80px;
+  }
+  .box5::before{
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 1px;
+      left: -40px;
+    bottom: 15px;
+      background-color: black;
+      cursor: pointer;
+  
+  }
+  /* plusing */
+  .box5 .pulsating-circle {
+      position: absolute;
+     left: -40px;
+     top: 20px;
+      width: 5px;
+      height:5px;
+      
+      &:before {
+        content: '';
+        position: relative;
+        display: block;
+        width: 300%;
+        height: 300%;
+        box-sizing: border-box;
+        margin-left: -100%;
+        margin-top: -100%;
+        border-radius: 45px;
+        background-color: black;
+        animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+      }
+      
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0; 
+        top: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        border-radius: 15px;
+        box-shadow: 0 0 8px rgba(0,0,0,.3);
+        animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+      }
+    }
+    
+    @keyframes pulse-ring {
+      0% {
+        transform: scale(.33);
+      }
+      80%, 100% {
+        opacity: 0;
+      }
+    }
+    
+    @keyframes pulse-dot {
+      0% {
+        transform: scale(.8);
+      }
+      50% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(.8);
+      }
+    }
+/* box5 */
+
+/*670*/
+@media (min-width: 670px){
+  .hid{
+display: none;
+  }
+}
+@media (max-width: 670px){
+  .display{
+display: none;
+  }
+}
